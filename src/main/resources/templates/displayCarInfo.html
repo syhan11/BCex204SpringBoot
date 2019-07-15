@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>DisplayInfo</title>
+</head>
+<body>
+<h2 style="text-align: center">Car Information</h2>
+    <p th:inline="text">
+
+        Name: [[${car.name}]]<br/>
+        Type: [[${car.type}]]<br/>
+        Description: [[${car.description}]]
+    </p>
+</body>
+</html>
